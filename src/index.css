@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'WorkSans';
+    src: url('./fonts/WorkSans-VariableFont_wght.ttf')  format('truetype'); 
+  }
+
+.header {
+    background: url("./images/header-background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family: WorkSans;
+    padding: 50px;
+    overflow: auto;
+}
+
+.footer {
+    background-color: black;
+    color: white !important;
+}
+
+.footerContainer {
+    padding: 100px !important;
+}
+
+.footerColumn {
+    margin: 0 80px;
+}
+
+.footerSubtitle {
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+.footerSubtitle2 {
+    padding-left: 7px;
+}
+
+.footerIconList {
+    list-style-type: none;
+    display: inline;
+}
+
+.footerMenu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.whiteText {
+    color: white;
+}
+
+/*
+.logo {
+    font-size: 200px;
+    line-height: 47px;
+    padding-right: 300px;
+}
+*/
+
+.logo {
+    
+}
+
+.title {
+    padding-top: 50px;
+    font-size: 5vw;
+    font-weight: 100;
+    text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+    .title {
+        font-size: 6vw;
+        padding-top: 0;
+    }
+    .subtitle {
+        font-size: 3vw;
+    }
+    .header {
+        background-size: 200%;
+    }
+}
+
+.subtitle {
+
+}
+
+.title-div {
+    max-width: 700px;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 15px;
+}
+
+h3 {
+    color: #CDCDCD;
+}
+
+.body {
+    background-color: #FCF9F1;
+    padding: 30px 50px;
+}
+
+.galleryImage {
+    width: 100%;
+    transition: transform .8s ease-in-out;
+}
+
+.galleryImage:hover {
+    transform: rotate(5deg);
+}
+
+.galleryItem {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.galleryItemBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/*
+.navbar-brand {
+    font-size: 51px !important;
+    font-weight: bold;
+}
+*/
+
+.nav-link {
+    font-size: 21px !important;
+    color: white !important;
+    /*padding: 0 20px !important;*/
+    padding: auto;
+}
+
+.nav-link:hover {
+    text-decoration: underline !important;
+}
+
+.redLink {
+    background-color: red !important;
+    padding: 2px 0;
+}
+
+.redFooter {
+    background-color: red !important;
+    padding: 10px 100px;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.galleryModal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.galleryRow {
+    position: relative;
+}
+
+.navBar {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+.modalContainer {
+    background-color: #232323;
+    padding: 20px 0 100px 0;
+}
+
+.modalContainerText {
+    color: #949191;
+}
+
+.modalHeader {
+    margin: 50px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalTitle {
+    max-width: 75%;
+}
+
+.closeButton {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.carouselItem {
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.footerLink {
+    margin-left: -33px;
+}
+
+.footerLink2 {
+    margin-left: -7px;
+}
